@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+ 	font-family: Arial, sans-serif;
+ 	background: linear-gradient(to bottom, #1297b8 0%,#1297ba 2%,#1298b5 3%,
+ 		#1297b8 3%,#0f96b4 3%,#149ab7 3%,#1796b6 3%,#1088aa 4%,#1289a7 4%,
+ 		#1289a7 6%,#1389a3 6%,#0e8aa6 6%,#5defff 6%,#17ccdf 6%,#0ecfe0 6%,
+ 		#18cde2 7%,#14cfe0 7%,#19cfe4 7%,#1bd0e1 7%,#20d1e5 8%,#28d2e3 8%,
+ 		#29d2e5 8%,#46d8e7 10%,#4edae9 10%,#53dbe9 11%,#8ee6f0 13%,#92e9f3 14%,
+ 		#ccf3f8 16%,#e1f9fd 18%,#e6fafb 18%,#ebfaff 18%,#f1fdfd 19%,#fdfeff 20%,
+ 		#fafeff 20%,#fffffa 20%,#fbfffa 20%,#fffcff 20%,#43c7cc 20%,#40c3d7 20%,
+ 		#3cc9d3 20%,#40c6d2 20%,#3cc0cf 23%,#1596b3 32%,#1293b2 34%,#1091b1 34%,
+ 		#108fb0 43%,#0e8fac 45%,#118bb0 45%,#108dad 47%,#118daf 48%,#0f8bad 49%,
+ 		#0f8aac 54%,#0d88aa 54%,#1088ab 58%,#0d83a7 64%,#0f81a6 70%,#0d7fa4 71%,
+ 		#0e7fa7 71%,#0e7ea6 76%,#0d7da3 76%,#0f7ca5 81%,#0c79a2 83%,#0c739e 100%)
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,4,5,1);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,4,5,1);
+	box-shadow: 0px 2px 6px 0px rgba(0,4,5,1);
+}
+.logo {
+	padding-top: 40px;
+}
+.menu {
+	background: #333333;
+	position: relative;
+	border-bottom: 1px solid black;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(85,85,85,1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(85,85,85,1);
+	box-shadow: 0px 2px 5px 0px rgba(85,85,85,1);
+}
+.menu li {
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+}
+.menu a {
+	display: block;
+	color: #fff;
+	line-height: 30px;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 30px;
+}
+.dropdown {
+	position: absolute;
+	top: 100%;
+	background: #333333;
+	-webkit-box-shadow: 0px 3px 9px 2px rgba(0,4,5,1);
+    -moz-box-shadow: 0px 3px 9px 2px rgba(0,4,5,1);
+    box-shadow: 0px 3px 9px 2px rgba(0,4,5,1);
+	display: none;
+}
+.submenu:hover .dropdown {
+	display: block;
+}
+.content {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #707771;
+	text-align: center;
+}
+.info {
+	font-size: 18px;
+	color: #424c43;
+	font-weight: bold;
+}
+.left_column {
+	width: 200px;
+	float: left;
+	background: #edeef0;
+	height: 500px;
+	border-right: 1px solid #c7cacf;
+}
+.right_column {
+	width: 200px;
+	float: right;
+	background: #edeef0;
+	height: 500px;
+	border-left: 1px solid #c7cacf;
+}
+.footer {
+	clear: both;
+	border-bottom: 1px solid black;
+	
+}
+.copyright {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	padding: 10px 0;
+}
+.special {
+	font-size: 10px; 
+}
