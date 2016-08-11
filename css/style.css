@@ -24,10 +24,46 @@ body {
 	-moz-box-shadow: 0px 2px 6px 0px rgba(0,4,5,1);
 	box-shadow: 0px 2px 6px 0px rgba(0,4,5,1);
 }
+.photo {
+	display: block;
+}
 .logo {
-	padding-top: 40px;
+	width: 400px;
+	float: left;
+	padding: 40px 0 0 15px;
+}
+.country {
+	width: 400px;
+	float: right;
+	position: relative;
+	clear: right;
+}
+.flags li {
+	display: inline-block;
+	list-style-type: none;
+	width: 50px;
+	padding: 15px 0 15px 10px;
+}
+.flags a {
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	color: #60bbd0;
+}
+.number {
+	font-weight: bold;
+}
+.contact {
+	float: right;
+	width: 175px;
+	height: 90px;
+	padding: 20px 20px 0 0;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #60bbd0;
 }
 .menu {
+	clear: both;
 	background: #333333;
 	position: relative;
 	border-bottom: 1px solid black;
