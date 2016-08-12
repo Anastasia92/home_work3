@@ -39,16 +39,13 @@ body {
 	display: inline-block;
 	list-style-type: none;
 	vertical-align: top;
-	width: 60px;
-
-	
+	width: 60px;	
 }
 .flags a {
 	display: block;
 	font-size: 10px;
 	text-align: center;
 	color: #60bbd0;
-
 }
 .number {
 	font-weight: bold;
@@ -122,8 +119,7 @@ body {
 }
 .footer {
 	clear: both;
-	border-bottom: 1px solid black;
-	
+	border-bottom: 1px solid black;	
 }
 .copyright {
 	text-align: center;
